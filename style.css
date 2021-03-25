@@ -5,23 +5,23 @@ body {
   font-family: lato, sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.header .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .header {
     text-align: center;
   }
 }
@@ -148,7 +148,7 @@ li > button.delete:hover {
 
 button.delete img {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 

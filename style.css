@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more_inf {
+.header .header__more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -34,13 +34,13 @@
   margin: 0 auto 0;
 }
 
-.task {
+.common-style {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-wrapper {
+.add-section__wrapper {
   display: flex;
 }
 
@@ -88,6 +88,7 @@
   font-family: lato, sans-serif;
   color: #888;
   outline: none;
+  width: 226px
 }
 
 .input:focus {
@@ -120,10 +121,6 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
-}
-
-.input {
-  width: 226px
 }
 
 .list {
